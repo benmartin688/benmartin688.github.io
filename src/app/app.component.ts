@@ -67,7 +67,7 @@ export class AppComponent {
       number: {
         density: {
           enable: true,
-          area: 600,
+          area: 500,
         },
         value: 80,
       },
