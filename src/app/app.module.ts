@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { IntroComponent } from './intro/intro.component';
+import { NgParticlesModule } from 'ng-particles';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, IntroComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, NgParticlesModule],
   providers: [],
   bootstrap: [AppComponent],
 })
