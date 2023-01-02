@@ -19,25 +19,25 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-weight: bold;
 }
 
 .hello {
-  font-size: 1.8rem;
+  font-size: 1.5vw;
   padding-bottom: 1rem;
   color: #d45c51;
+  margin-left: -0.1vw;
 }
 
 .name {
-  font-size: 20rem;
+  font-size: 13vw;
   line-height: 80%;
-  margin-left: -1.4rem;
+  margin-left: -1vw;
 }
 
 .occupation {
-  font-size: 4rem;
+  font-size: 2.5vw;
   padding-top: 0.5rem;
   line-height: 100%;
   float: left;
@@ -49,27 +49,24 @@ hr {
 }
 
 .hr-title {
-  width: 8rem;
-  height: 0.8rem;
+  width: 9vw;
+  height: 0.8vw;
   float: left;
 }
 
 .hr-hint {
-  width: 10rem;
-  height: 0.2rem;
-  margin-top: 0;
+  width: 16vw;
+  height: 0.2vh;
 }
 
 .text-hint {
-  margin-left: 1rem;
-  margin-bottom: -1rem;
+  text-align: center;
+  font-size: 0.8vw;
 }
 
 .hint {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  margin-bottom: 4rem;
-  margin-left: -2rem;
-  transform: rotate(-90deg);
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 95%);
 }
