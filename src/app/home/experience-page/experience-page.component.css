@@ -28,3 +28,32 @@
   width: 60vw;
   height: 60vh !important;
 }
+
+img {
+  position: relative !important;
+  top: 5% !important;
+  left: 5% !important;
+  transform: translate(-5%, 20%) !important;
+  width: 10vw !important;
+  height: 10vw !important;
+  float: left;
+  margin-right: 3vw;
+}
+
+.header {
+  text-align: justify;
+  font-size: 2vw;
+  font-weight: bold;
+  margin-top: 3.3vw;
+}
+
+.text {
+  font-size: 1vw;
+  margin-top: 4vh;
+  margin-left: 2.6vw;
+}
+
+ul {
+  padding-inline-start: 1vw;
+  line-height: 6vh;
+}
