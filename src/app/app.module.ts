@@ -8,6 +8,8 @@ import { NgParticlesModule } from 'ng-particles';
 import { HelloPageComponent } from './home/hello-page/hello-page.component';
 import { AboutPageComponent } from './home/about-page/about-page.component';
 import { EducationPageComponent } from './home/education-page/education-page.component';
+import { IvyCarouselModule } from 'carousel-angular';
+import { ExperiencePageComponent } from './home/experience-page/experience-page.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,15 @@ import { EducationPageComponent } from './home/education-page/education-page.com
     HelloPageComponent,
     AboutPageComponent,
     EducationPageComponent,
+    ExperiencePageComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, NgParticlesModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    NgParticlesModule,
+    IvyCarouselModule,
+  ],
 })
 export class AppModule {}

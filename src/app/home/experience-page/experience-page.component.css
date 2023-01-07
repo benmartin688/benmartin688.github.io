@@ -1,0 +1,30 @@
+.title {
+  font-size: 3vw;
+  font-weight: bold;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  transform: translate(-2%, -2%);
+}
+
+.hr-title {
+  margin-top: 0;
+  background-color: #d45c51;
+  border: none;
+  width: 15.2vw;
+  height: 0.2vw;
+}
+
+.carousel-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #232741;
+  box-shadow: 0 0 3vw rgb(34, 34, 34);
+}
+
+.carousel-content {
+  width: 60vw;
+  height: 60vh !important;
+}
