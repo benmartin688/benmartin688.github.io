@@ -1,0 +1,16 @@
+.title {
+  font-size: 3vw;
+  font-weight: bold;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  transform: translate(-2%, -2%);
+}
+
+.hr-title {
+  margin-top: 0;
+  background-color: #d45c51;
+  border: none;
+  width: 13.7vw;
+  height: 0.2vw;
+}

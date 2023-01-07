@@ -1,0 +1,36 @@
+.title {
+  font-size: 3vw;
+  font-weight: bold;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+.hr-title {
+  margin-top: 0;
+  background-color: #d45c51;
+  border: none;
+  width: 14vw;
+  height: 0.2vw;
+}
+
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60vw;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  float: left;
+  height: 25vw;
+  width: 25vw;
+  border: #d45c51;
+}
+
+.text {
+  margin-left: 26vw;
+  font-size: 1.3vw;
+  padding: 5vw 0;
+}

@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { NgParticlesModule } from 'ng-particles';
 import { HelloPageComponent } from './home/hello-page/hello-page.component';
 import { AboutPageComponent } from './home/about-page/about-page.component';
+import { EducationPageComponent } from './home/education-page/education-page.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { AboutPageComponent } from './home/about-page/about-page.component';
     HomeComponent,
     HelloPageComponent,
     AboutPageComponent,
+    EducationPageComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
