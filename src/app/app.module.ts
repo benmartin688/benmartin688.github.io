@@ -10,6 +10,7 @@ import { AboutPageComponent } from './home/about-page/about-page.component';
 import { EducationPageComponent } from './home/education-page/education-page.component';
 import { IvyCarouselModule } from 'carousel-angular';
 import { ExperiencePageComponent } from './home/experience-page/experience-page.component';
+import { AngularFullpageModule } from '@fullpage/angular-fullpage';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ExperiencePageComponent } from './home/experience-page/experience-page.
     AppRoutingModule,
     NgParticlesModule,
     IvyCarouselModule,
+    AngularFullpageModule,
   ],
 })
 export class AppModule {}

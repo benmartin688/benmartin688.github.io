@@ -1,7 +1,7 @@
 .title {
   font-size: 3vw;
   font-weight: bold;
-  position: absolute;
+  position: relative;
   top: 2%;
   left: 2%;
 }
@@ -12,13 +12,14 @@
   border: none;
   width: 14vw;
   height: 0.2vw;
+  float: left;
 }
 
 .info {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 60vw;
+  position: relative;
+  top: 47%;
+  left: 43%;
+  width: 70vw;
   transform: translate(-50%, -50%);
 }
 
@@ -26,11 +27,10 @@ img {
   float: left;
   height: 25vw;
   width: 25vw;
-  border: #d45c51;
 }
 
 .text {
-  margin-left: 26vw;
+  margin-left: 40vw;
   font-size: 1.3vw;
-  padding: 4vw 0;
+  padding: 3vw 0;
 }

@@ -1,8 +1,14 @@
-<div class="scroll-container">
-  <section>
+<div
+  fullpage
+  id="fullpage"
+  [options]="config"
+  (ref)="getRef($event)"
+  #fullpageRef
+>
+  <div class="section">
     <app-hello-page></app-hello-page>
-  </section>
-  <section><app-about-page></app-about-page></section>
-  <section><app-experience-page></app-experience-page></section>
-  <section><app-education-page></app-education-page></section>
+  </div>
+  <div class="section"><app-about-page></app-about-page></div>
+  <div class="section"><app-experience-page></app-experience-page></div>
+  <div class="section"><app-education-page></app-education-page></div>
 </div>
